@@ -29,6 +29,8 @@
   color: #000;
 }
 .nav-list {
+  display: flex;
+  flex-direction: row;
 }
 .nav-item {
 }
@@ -41,9 +43,8 @@
   letter-spacing: 0.02em;
   color: #212121;
 }
-.nav-link:hover{
-  color: #2196F3;
-
+.nav-link:hover {
+  color: #2196f3;
 }
 .contact-link {
   position: absolute;
@@ -54,8 +55,8 @@
   letter-spacing: 0.02em;
   color: #757575;
 }
-.contact-link:hover{
-color: #2196F3;
+.contact-link:hover {
+  color: #2196f3;
 }
 .hero {
   position: absolute;
@@ -81,7 +82,7 @@ color: #2196F3;
 
 .order-btn {
   position: absolute;
-
+  margin-top: 30px;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -118,5 +119,9 @@ color: #2196F3;
   color: #212121;
 }
 .characteristic {
-
+  margin-top: 94px;
+  margin-left: 215px;
+  margin-right: 215px;
+  display: flex;
+  flex-direction: row;
 }
