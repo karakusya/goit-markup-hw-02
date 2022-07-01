@@ -17,7 +17,7 @@ body {
   display: flex;
   width: 532px;
   margin-left: 215px;
-  margin-right: 93px;
+  margin-right: 331px;
   margin-top: 24px;
   margin-bottom: 25px;
 }
@@ -38,6 +38,8 @@ body {
 .nav-list {
   display: flex;
   flex-direction: row;
+  margin-left: 93px;
+
 }
 
 .nav-link {
