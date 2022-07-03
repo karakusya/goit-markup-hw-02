@@ -127,13 +127,14 @@ header {
   font-size: 16px;
   line-height: 1,62;
   text-align: center;
-  color: #212121;
+  color: var(--black-color);
   background: #f5f4fa;
   border-radius: 4px;
-  border: 0;\ font-family: "Roboto";
+  border: 0;
+  font-family: "Roboto";
 }
 .filter-btn:hover {
-  background-color: var(--brand-color)
+  background-color: var(--brand-color);
 }
 
 .project-title {
@@ -141,7 +142,7 @@ header {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--black-color)
+  color: var(--black-color);
 }
 .project-type {
   font-size: 16px;
