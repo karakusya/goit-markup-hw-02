@@ -92,6 +92,7 @@ header {
 
 .characteristic-title {
   color: var(--black-color);
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
